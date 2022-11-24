@@ -1,6 +1,6 @@
 $body-dark: #080808; // body background
 $dark-bg: #111111; // hero shade
-$dark-light-bg: $dark-bg; // pills bg shade
+$dark-light-bg: linear-gradient(to right, #000000, #374350 81%) ;// pills bg shade
 $dark-light: $dark-light-bg; // tile light top share
 $labels-dark: #888888; // header nav, labels
 

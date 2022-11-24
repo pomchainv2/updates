@@ -1,23 +1,23 @@
 // general
-$primary: #5c34a2;
+$primary: #fff;
 $secondary: #87e1a9;
-$tertiary: #bf9cff;
-$additional-font: #fff;
+$tertiary: #f5f5f5;
+$additional-font: #000;
 
 // footer
-$footer-background-color: #3c226a;
+$footer-background-color: linear-gradient(to right, #000000, #374350 81%);
 $footer-title-color: #fff;
-$footer-text-color: #bda6e7;
+$footer-text-color: #fff;
 $footer-item-disc-color: $secondary;
 .footer-logo { filter: brightness(0) invert(1); }
 
 // dashboard
-$dashboard-line-color-price: $tertiary; // price left border
+$dashboard-line-color-price: $tertiary; // price left borderlinear-gradient(to right, #000000, #374350 81%)
 
-$dashboard-banner-chart-legend-label-color: #dcc8ff;
+$dashboard-banner-chart-legend-label-color: #a3b0bd;
 $dashboard-stats-item-label-color: $dashboard-banner-chart-legend-label-color;
-$dashboard-banner-chart-legend-value-color: #fff; // chart labels
-$dashboard-stats-item-value-color: #fff; // stat values
+$dashboard-banner-chart-legend-value-color: #000; // chart labels
+$dashboard-stats-item-value-color: #000; // stat values
 
 $dashboard-stats-item-border-color: $secondary; // stat border
 
@@ -25,7 +25,7 @@ $dashboard-banner-gradient-start: $primary; // gradient begin
 
 $dashboard-banner-gradient-end: lighten($primary, 5); // gradient end
 
-$dashboard-banner-network-plain-container-background-color: #8258cd; // stats bg
+$dashboard-banner-network-plain-container-background-color: #f5f5f500; // stats bg
 
 
 // navigation
@@ -36,7 +36,7 @@ $header-icon-color-hover: $primary;
 $header-icon-border-color-hover: $primary;
 
 // buttons
-$btn-line-bg: #fff; // button bg
+$btn-line-bg: #000; // button bg
 $btn-line-color: $primary; // button border and font color && hover bg color
 $btn-copy-color: $primary; // btn copy
 $btn-qr-color: $primary; // btn qr-code

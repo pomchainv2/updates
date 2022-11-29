@@ -22,7 +22,7 @@ $dashboard-banner-chart-axis-font-color-alt: #333;
 .dashboard-banner-container {
   @include gradient-container();
   margin-bottom: 3rem;
-  overflow: hidden;
+  
   padding: 0;
   position: relative;
   height: 264px;
@@ -226,7 +226,7 @@ $dashboard-banner-chart-axis-font-color-alt: #333;
     max-width: 100%;
     padding: 20px 0 20px 20px;
     width: 250px;
-    box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.3rem 0.6rem 0 rgb(0 0 0 / 16%);
   }
 
   @include media-breakpoint-down(sm) {
@@ -243,7 +243,7 @@ $dashboard-banner-chart-axis-font-color-alt: #333;
     position: absolute;
     width: 9999px;
     z-index: -1;
-    box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.3rem 0.6rem 0 rgb(0 0 0 / 16%);
     border-top-left-radius: 10px;
 
     @include media-breakpoint-down(md) {

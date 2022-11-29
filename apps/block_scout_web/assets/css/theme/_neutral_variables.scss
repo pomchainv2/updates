@@ -29,7 +29,7 @@ $dashboard-banner-network-plain-container-background-color: #f5f5f500; // stats 
 
 
 // navigation
-.navbar { box-shadow: 0px 0px 30px 0px rgba(21, 53, 80, 0.12); } // header shadow
+.navbar { box-shadow:0 0.3rem 0.6rem 0 rgb(0 0 0 / 16%) } // header shadow
 $dropdown-menu-item-hover-color: $primary !default;
 $dropdown-menu-item-hover-background: rgba($primary, .1) !default;
 $header-icon-color-hover: $primary;

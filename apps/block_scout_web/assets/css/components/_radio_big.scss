@@ -12,7 +12,7 @@ $radio-big-dimensions: 30px !default;
     position: absolute;
     width: 100%;
     z-index: 5;
-
+    
     &:checked + .radio-icon::before {
       background-color: $radio-big-color;
       border-radius: 50%;

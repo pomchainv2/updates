@@ -14,17 +14,16 @@
 }
 
 @mixin gradient-container() {
-  background-color: $primary;
+  background-color: #a3b0bd;
   background-image: linear-gradient(
     to right,
     $dashboard-banner-gradient-start,
     $dashboard-banner-gradient-end
   );
-  box-shadow: 0 5px 40px -5px rgba(#000, 0.25);
-  margin-top: -3rem;
+  box-shadow: 0 0.3rem 0.6rem 0 rgb(0 0 0 / 16%);
 }
 
-@mixin stats-item($border-color: #fff, $text-color: #fff, $value-color: #fff) {
+@mixin stats-item ($border-color: #fff, $text-color: #fff, $value-color: #fff) {
   &-item {
     display: flex;
     flex-direction: column;
@@ -34,7 +33,7 @@
     position: relative;
 
     &::before {
-      background-color: $border-color;
+      background-color: #a3b0bd;
       border-radius: 2px;
       content: "";
       height: 100%;
@@ -174,7 +173,7 @@
     &,
     &:hover {
       background-color: $bg-color!important;
-      border-color: $primary!important;
+      border-color: #a3b0bd;
       color: $primary!important;
       cursor: default;
       opacity: 0.5;

@@ -72,6 +72,7 @@ function loadCounters (store) {
   fetchCounters()
 }
 
+
 const $tokenPage = $('[token-page]')
 
 if ($tokenPage.length) {

@@ -1,18 +1,17 @@
 $card-background-color: #fff !default;
 $card-tab-active: $primary !default;
-$card-default-border-radius: 10px !default;
+$card-default-border-radius: 0px !default;
 $card-horizontal-padding: 30px;
 $card-vertical-padding: 30px;
 $card-background-1: $primary !default;
 $card-background-1-text-color: #fff !default;
-$card-tab-icon-color: #20b760 !default;
+$card-tab-icon-color: #a3b0bd !default;
 $card-tab-icon-color-active: #fff !default;
 
 .card {
   background-color: $card-background-color;
   border-radius: $card-default-border-radius;
-  border: none;
-  box-shadow: 0 0 30px 0 rgba(202, 199, 226, 0.5);
+  box-shadow: 0 0.3rem 0.6rem 0 rgb(0 0 0 / 16%);
   margin-bottom: $common-container-margin;
 
   .block-details-row {
@@ -165,7 +164,7 @@ $card-tab-icon-color-active: #fff !default;
 
 .card-server-response-body {
   max-height: 400px;
-  overflow-y: auto;
+ 
 }
 
 .card-chain-blocks {
@@ -194,7 +193,7 @@ $card-tab-icon-color-active: #fff !default;
   border-bottom: 1px solid $base-border-color;
   display: flex;
   justify-content: flex-start;
-  overflow: hidden;
+ 
 
   @include media-breakpoint-down(md) {
     flex-direction: column;

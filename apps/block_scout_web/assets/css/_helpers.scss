@@ -24,7 +24,7 @@
 
 .clearfix:after {
   clear: both;
-  content: " "; /* Older browser do not support empty content */
+  content: " "; // Older browser do not support empty content 
   display: block;
   height: 0;
   visibility: hidden;

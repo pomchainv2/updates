@@ -14,7 +14,7 @@ $check-dimensions: 14px !default;
     z-index: 5;
 
     &:checked + .check-icon::before {
-      background-color: $check-color;
+      background-color: #a3b0bd;
       content: "";
       height: 6px;
       left: 50%;

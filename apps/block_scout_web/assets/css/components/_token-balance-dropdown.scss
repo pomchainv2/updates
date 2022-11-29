@@ -1,7 +1,7 @@
 .token-balance-dropdown {
   min-width: 10rem;
   margin-top: 1rem;
-  background-color: #fff;
+  background-color:#fff;
 
   &.dropdown-menu {
     border-radius: 4px !important;
@@ -42,7 +42,7 @@
     font-weight: 300;
     padding-left: 52px;
     &::placeholder {
-      color: rgba(#828ba0, .5);
+      color: rgba(#828ba0, 0.5);                          
     }
   }
 

@@ -5,23 +5,23 @@
     color: #77838f;
     border-radius: 5px;
     &.large {
-        font-size: 14px;
+        font-size:14px;
     }
-    font-size: 12px;
+    font-size:12px;
     padding: 5px;
-    line-height: normal;
+    line-height:normal;
 
     &.right {
-        margin-left: auto;
-        float: right;
+        margin-left:auto;
+        float:right;
     }
     &.omni {
-        background: #6ca1e2;
-        color: #fff;
+        background: #6ca1e2;                
+        color:#fff;
     }
     &.destination-eth {
         background: #253358;
-        color: #fff;
+        color:#fff;
     }
     &.destination-bsc {
         background: #e7b941;
@@ -47,10 +47,10 @@
         color: #1e2022;
     }
     &.from-dropdown {
-        margin-top: -3px;
+        margin-top:-3px;
     }
     &.success {
-        background: rgba(40, 167, 69, 0.2);
+        background:rgba(40, 167, 69, 0.2);
         color: rgb(40, 167, 69);
     }
 }

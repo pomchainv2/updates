@@ -17,7 +17,7 @@
     }
 
     &:hover {
-      border-color: transparent;
+      border-color:transparent;
     }
   }
 }
@@ -27,6 +27,9 @@
   border-color: darken($primary, 10%);
   color: $white;
 }
+
+
+
 
 .api-doc-tab {
   padding-bottom: 5px;

@@ -1,11 +1,13 @@
 $common-link-color: $primary !default;
-$blue: #4b89fb !default;
-$success: #34c0ad !default;
+$blue:#4b89fb !default;
+$success:#34c0ad !default;
 
 body {
   font-family: $font-family;
   font-size: 12px;
 }
+
+
 
 h1 {
   font-size: 26px;
@@ -31,16 +33,16 @@ h4 {
   margin-top: 4px;
 
   &.underline {
-    text-decoration: underline;
+    text-decoration:underline;
   }
 }
 
 h5 {
-  font-size: 14px;
+  font-size:14px;
 }
 
 p {
-  font-size: 13px;
+  font-size:13px;
 
   @media screen and (max-width: 768px) {
     font-size: 14px;
@@ -48,16 +50,16 @@ p {
 }
 
 a {
-  color: $common-link-color;
-  text-decoration: none;
+  color: $common-link-color;  
+  text-decoration: none;  
 
   &:hover,
   &:focus {
-    color: darken($common-link-color, 20%);
-    text-decoration: underline;
+    color: darken($common-link-color, 20%); 
+    text-decoration: underline; 
   }
 
-  .bg-primary &:hover,
+  .bg-primary &:hover, 
   .bg-primary &:focus {
     color: $white;
   }
@@ -65,12 +67,13 @@ a {
 
 label,
 textarea.form-control {
-  font-size: 13px;
+  font-size:13px; 
 }
 
 .monospace {
   font-family: $font-family-monospace;
 }
+
 
 .contract-address {
   display: inline-block;
@@ -89,6 +92,7 @@ textarea.form-control {
   &-contract-call {
     color: $green;
   }
+
 
   &-contract-creation {
     color: $pink;
@@ -114,7 +118,7 @@ textarea.form-control {
   [Suicide"] {
     color: $danger;
   }
-  
+  ]
 }
 
 [data-internal-transaction-type="Call"] {
@@ -133,3 +137,4 @@ textarea.form-control {
 [data-internal-transaction-type="Suicide"] {
   color: $danger;
 }
+

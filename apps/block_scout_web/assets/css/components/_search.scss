@@ -34,14 +34,14 @@
     padding: 0 !important;
     border: none !important;
     border-radius: 0 !important;
-    background-color: #f5f6fa !important;
+    background-color:#f5f6fa !important;
     @media screen and (max-width: 992px) {
         height: auto !important;
     }
 }
 
 .main-search-autocomplete, .main-search-autocomplete-mobile {
-    font-size: 14px !important;
+    font-size:14px !important;
     color: #828ba0 !important;
 }
 
@@ -49,8 +49,8 @@
     display: flex;
     align-items: center;
     font-size: 13px;
-    font-weight: 100;
-    text-transform: uppercase;
+    font-weight:100;
+    text-transform:uppercase;
     color: rgb(33,33,33);
     margin-left: auto;
 }
@@ -68,5 +68,5 @@ ul[id^='autoComplete_list_'] {
 
 li[id^='autoComplete_result_'] {
     font-size: 12px !important;
-    border-radius: 0 !important;
+    border-radius: 0 !important;                      
 }

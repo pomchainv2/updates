@@ -2,18 +2,20 @@ hr {
   border-bottom: none;
   border-left: none;
   border-right: none;
-  border-top: 1px solid #f5f6fa;
+  border-top: 1px solid #f5f6fa;      
   margin: 30px 0;
 }
 
 svg {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  //-ms-font-smoothing: gray;
   display: inline-block;
+
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
-  line-height: 1;
+  line-height: 1;    
 }
 
 dl {

@@ -1,7 +1,7 @@
 @use 'sass:math';
 
 pre {
-  white-space: pre-wrap;
+  white-space: pre-wrap;    
 }
 
 .pre-wrap code {
@@ -10,26 +10,32 @@ pre {
 
 .pre-decompiled code {
   white-space: pre-wrap;
-  counter-increment: line;
+  counter-increment: line;        
+  //visibility: ;      
 }
 
 .pre-decompiled code::before {
-  content: counter(line);
+  content: counter(line);                  
   display: inline-block;
   width: 3em;
-  border-right: 1px solid #ddd;
+  border-right: 1px solid #ddd;               
   padding: 0 0.5em;
   margin-right: .5em;
   color: #888;
-  -webkit-user-select: none;
+  -webkit-user-select: none;     
 }
 
 .pre-scrollable-shorty {
-  max-height: math.div($pre-scrollable-max-height, 7);
+  max-height: math.div($pre-scrollable-max-height, 7);                 
 }
 
 .tile pre {
-  margin: 0
+  margin: 0;
+  
+  /*
+  padding: 0.1%;    
+  bottom: auto;    
+  */    
 }
 
 .contract-code-container {

@@ -14,7 +14,7 @@
 	font-size: 13px;
 	margin-top: 10px;
 	@media (min-width: 768px) {
-		margin-top: 30px;
+		margin-top: 30px;                      
 	}
 	.download-all-transactions-link {
 		display: inline-flex;
@@ -30,7 +30,7 @@
 			}
 		}
 		&:hover {
-			text-decoration: underline;
+			text-decoration: underline;                
 		}
 	}
 }

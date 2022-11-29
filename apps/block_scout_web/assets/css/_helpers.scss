@@ -6,11 +6,13 @@
   }
 }
 
+
+
 .pl-0-md {
-  padding-left: 0 !important;
+  padding-left:0 !important;
 
   @include media-breakpoint-down(md) {
-    padding-left: 15px !important;
+    padding-left:15px !important;
   }
 }
 
@@ -19,16 +21,18 @@
 
   @include media-breakpoint-down(md) {
     margin-right: 0;
+    //margin-bottom: 0%;
   }
 }
 
 .clearfix:after {
   clear: both;
   content: " "; // Older browser do not support empty content 
-  display: block;
-  height: 0;
-  visibility: hidden;
+  display:block;
+  height:0;
+  visibility:hidden;
 }
+
 
 .hidden {
   display: none!important;
@@ -36,6 +40,7 @@
 
 .word-break-all {
   word-break: break-all;
+  //text-align: center;          
 }
 
 .centered-container {
@@ -49,6 +54,7 @@
 
 .mb-2-desktop {
   @include media-breakpoint-up(sm) {
-    margin-bottom: .5rem !important;
+    margin-bottom:.5rem !important;
+    //margin-right: .5rem !important;
   }
 }

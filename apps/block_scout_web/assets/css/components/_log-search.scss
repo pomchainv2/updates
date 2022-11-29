@@ -5,7 +5,7 @@
 		justify-content: space-between;
 	}
 	.pagination-container.position-top {
-		padding-top: 0 !important;
+		padding-top:0 !important;
 	}
 }
 
@@ -20,12 +20,12 @@
 }
 
 .logs-search-input, .logs-search-btn, .logs-search-btn-cancel {
-	height: 24px;
-	background-color: #f5f6fa;
-	border: 1px solid #f5f6fa;
-	color: #333;
-	border-radius: 2px;
-	outline: none;
+	height:24px;
+	background-color:#f5f6fa;
+	border:1px solid#f5f6fa;
+	color:#333;
+	border-radius:2px;
+	outline:none;
 	font-family: Nunito, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 12px;
     font-weight: 600;
@@ -64,6 +64,6 @@
 	top: 0;
 	right: 56px;
 	&:hover {
-		color: #333;
+		color:#333;
 	}
 }

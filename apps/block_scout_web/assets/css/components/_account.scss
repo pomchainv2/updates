@@ -121,7 +121,7 @@ input.public-tags-address {
   }
 }
 
-.multiple-input-fields-container {
+.multiple-input-fields-container{
   padding-inline-start: 0;
   display: inline-block;
   margin-bottom: 0;
@@ -131,7 +131,6 @@ input.public-tags-address {
   @include media-breakpoint-up(md) {
     display: flex;
     justify-content: space-between;
-
     .form-group {
       flex-grow: 1;
       margin-right: 4rem;

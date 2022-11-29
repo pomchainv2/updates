@@ -2,7 +2,7 @@ $radio-color: $primary !default;
 $radio-dimensions: 20px !default;
 
 .radio {
-  align-items: center;
+  align-items:center;
   display: flex;
   position: relative;
 
@@ -34,7 +34,7 @@ $radio-dimensions: 20px !default;
     height: $radio-dimensions;
     margin: 0 10px 0 0;
     position: relative;
-    width: $radio-dimensions;
+    width: $radio-dimensions;                   
     z-index: 1;
   }
 
@@ -43,7 +43,7 @@ $radio-dimensions: 20px !default;
     font-weight: normal;
     line-height: 1.2;
     position: relative;
-    white-space: nowrap;
+    white-space: nowrap ;
     z-index: 1;
   }
 }

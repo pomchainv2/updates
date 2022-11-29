@@ -92,7 +92,7 @@
   width: fit-content;
 
   &:hover {
-    background-color: darken($bg-color, 10%);
+    background-color: darken($bg-color, 10%);                   
     border-color: darken($bg-color, 10%);
     color: $text-color;
     text-decoration: none;
@@ -115,7 +115,7 @@
     &:hover {
       background-color: $bg-color;
       border-color: $bg-color;
-      cursor: default;
+      cursor: default;                   
       opacity: 0.5;
     }
   }
@@ -181,6 +181,8 @@
   }
 }
 
+
+
 @mixin square-icon-button($color, $dimensions) {
   align-items: center;
   border: 1px solid $color;
@@ -207,7 +209,7 @@
     background-color: $color;
 
     path {
-      fill: #fff;
+      fill: #fff;   
     }
   }
 }
@@ -227,8 +229,8 @@
   }
 
   svg {
-    vertical-align: text-bottom;   
-    margin-bottom: -1.1px;
+    vertical-align: text-bottom;
+    margin-bottom: -1.1px;  
   }
 
   &:hover {
@@ -250,3 +252,4 @@
     background-size: $width $height;
   }
 }
+

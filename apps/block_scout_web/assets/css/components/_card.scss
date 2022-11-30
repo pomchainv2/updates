@@ -1,12 +1,12 @@
 $card-background-color: #fff !default;
-$card-tab-active: $primary !default;
+$card-tab-active: #000   !default;
 $card-default-border-radius: 0px !default;
 $card-horizontal-padding: 30px;
 $card-vertical-padding: 30px;
 $card-background-1: $primary !default;
-$card-background-1-text-color: #fff !default;
+$card-background-1-text-color: #000 !default;
 $card-tab-icon-color: #a3b0bd !default;
-$card-tab-icon-color-active: #fff !default;
+$card-tab-icon-color-active: #000 !default;
 
 .card {
   background-color: $card-background-color;
@@ -231,7 +231,7 @@ $card-tab-icon-color-active: #fff !default;
 
   &.active {
     background-color: $card-tab-active;
-    color: #fff;
+    color: #000;
     cursor: default;
     text-decoration: none;
 

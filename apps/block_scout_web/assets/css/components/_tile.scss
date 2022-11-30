@@ -1,4 +1,4 @@
-$tile-type-block-color: $primary !default;
+$tile-type-block-color: #f5f5f5;
 $tile-type-uncle-color: $cyan !default;
 $tile-type-reorg-color: $purple !default;
 $tile-type-emission-reward-color: $lilac !default;
@@ -16,6 +16,7 @@ $tile-status-awaiting-internal-transactions: $warning !default;
 $tile-padding: 1rem;
 $tile-title-color: #000 !default;
 $tile-body-a-color: #5959d8 !default;
+$color-text: #000 !important;
 
 @mixin generate-tile-block($prefix, $color, $label-color: false) {
   &#{ $prefix } {
@@ -25,9 +26,12 @@ $tile-body-a-color: #5959d8 !default;
       a {
         @if ($label-color) {
           color: $label-color;
+          background-color: #f5f5f5;
         } @else {
           color: $color;
+          background-color: #f5f5f5;
         }
+        
       }
     }
 
@@ -124,7 +128,7 @@ $tile-body-a-color: #5959d8 !default;
 }
 
 .tile-transactions {
-  color: #a3a9b5;
+  color: $color-text;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.2;
@@ -176,8 +180,9 @@ $tile-body-a-color: #5959d8 !default;
 }
 
 .tile {
+  color : $color-text;
   span[data-address-hash] {
-    color: $tile-body-a-color;
+    color: $color-text;
   }
 
   a[data-test=token_link] {
@@ -187,6 +192,7 @@ $tile-body-a-color: #5959d8 !default;
   .tile-body {
     a {
       color: $tile-body-a-color;
+      background-color: #f5f5f5;
       &:hover {
         span {
           text-decoration: underline;
@@ -198,6 +204,9 @@ $tile-body-a-color: #5959d8 !default;
   .tile-title {
     color: $tile-title-color;
     font-size: 12px;
+    // margin-bottom: 2px;
+
+      background-color: #f5f5f5 !important;
 
     &-hash {
       font-weight: 300;
@@ -209,7 +218,7 @@ $tile-body-a-color: #5959d8 !default;
     }
   }
   border-radius: 4px;
-  border: 1px solid $border-color;
+  // border: 1px solid $border-color;
   color: $text-muted;
   flex-grow: 1;
   font-size: 12px;

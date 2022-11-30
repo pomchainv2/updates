@@ -10,14 +10,14 @@ $dashboard-line-color-market: #a3b0bd !default;
 $dashboard-line-color-market-dark-theme:  #a3b0bd !default;
 $dashboard-line-color-transactions: #a3b0bd !default;
 $dashboard-line-color-transactions-dark-theme:#a3b0bd !default;
-$dashboard-stats-item-label-color: #fff !default;
-$dashboard-stats-item-value-color: rgba(#fff, 0.8) !default;
-$dashboard-banner-chart-legend-label-color: #fff !default;
-$dashboard-banner-chart-legend-value-color: $dashboard-stats-item-value-color !default;
+$dashboard-stats-item-label-color: #000 !default;
+$dashboard-stats-item-value-color: rgba(#000, 0.8) !default;
+$dashboard-banner-chart-legend-label-color: #000 !default;
+// $dashboard-banner-chart-legend-value-color: $dashboard-stats-item-value-color !default;
 $dashboard-stats-item-border-color:#a3b0bd !default;
 $dashboard-banner-network-plain-container-height: 205px;
 $dashboard-banner-chart-axis-font-color: $dashboard-stats-item-value-color !default;
-$dashboard-banner-chart-axis-font-color-alt: #fff;
+$dashboard-banner-chart-axis-font-color-alt: #000;
 
 .dashboard-banner-container {
   @include gradient-container();
@@ -139,6 +139,7 @@ $dashboard-banner-chart-axis-font-color-alt: #fff;
     }
 
     &.gas-price-oracle {
+      color: #000 !important;
       &::before {
         background-color: #a3b0bd;
       }
@@ -283,6 +284,7 @@ $dashboard-banner-chart-axis-font-color-alt: #fff;
   }
 
   .dashboard-banner-network-stats-value {
+    color: #000 !important;
     @media (max-width: 374px) {
       font-size: 0.9rem;
     }

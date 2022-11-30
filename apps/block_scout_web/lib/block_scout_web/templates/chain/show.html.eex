@@ -79,7 +79,7 @@
                         data-html="true"
                         data-template="<div class='tooltip tooltip-inversed-color tooltip-gas-usage' role='tooltip'><div class='arrow'></div><div class='tooltip-inner'></div></div>"
                         title="<div class='custom-tooltip-header'>Gas used</div><div class='custom-tooltip-description'><b><%= BlockScoutWeb.Cldr.Number.to_string!(gas_used, format: "#,###") %><b></div>">
-                        <i style="color: #ffffff;" class="fa fa-info-circle ml-1"></i>
+                        <i style="color: #000;" class="fa fa-info-circle ml-1"></i>
                       </span>
                     <% end %>
                 </span>

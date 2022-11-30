@@ -23,7 +23,7 @@
   box-shadow: 0 0.3rem 0.6rem 0 rgb(0 0 0 / 16%);
 }
 
-@mixin stats-item ($border-color: #fff, $text-color: #fff, $value-color: #fff) {
+@mixin stats-item ($border-color: #fff, $text-color: #000, $value-color: #fff) {
   &-item {
     display: flex;
     flex-direction: column;

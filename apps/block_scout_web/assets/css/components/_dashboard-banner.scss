@@ -4,20 +4,20 @@ $dashboard-banner-gradient-end: lighten(
   5%
 ) !default;
 $dashboard-banner-network-plain-container-background-color: lighten($dashboard-banner-gradient-end, 5%) !default;
-$dashboard-line-color-price: lighten($dashboard-banner-gradient-end, 5%) !default;
-$dashboard-line-color-price-dark-theme: lighten($dashboard-banner-gradient-end, 5%) !default;
-$dashboard-line-color-market: $secondary !default;
-$dashboard-line-color-market-dark-theme: $secondary !default;
-$dashboard-line-color-transactions: $warning !default;
-$dashboard-line-color-transactions-dark-theme: $warning !default;
+$dashboard-line-color-price: #a3b0bd !default;;
+$dashboard-line-color-price-dark-theme: #a3b0bd !default;;
+$dashboard-line-color-market: #a3b0bd !default;
+$dashboard-line-color-market-dark-theme:  #a3b0bd !default;
+$dashboard-line-color-transactions: #a3b0bd !default;
+$dashboard-line-color-transactions-dark-theme:#a3b0bd !default;
 $dashboard-stats-item-label-color: #fff !default;
 $dashboard-stats-item-value-color: rgba(#fff, 0.8) !default;
 $dashboard-banner-chart-legend-label-color: #fff !default;
 $dashboard-banner-chart-legend-value-color: $dashboard-stats-item-value-color !default;
-$dashboard-stats-item-border-color: $primary !default;
+$dashboard-stats-item-border-color:#a3b0bd !default;
 $dashboard-banner-network-plain-container-height: 205px;
 $dashboard-banner-chart-axis-font-color: $dashboard-stats-item-value-color !default;
-$dashboard-banner-chart-axis-font-color-alt: #333;
+$dashboard-banner-chart-axis-font-color-alt: #fff;
 
 .dashboard-banner-container {
   @include gradient-container();
@@ -26,6 +26,7 @@ $dashboard-banner-chart-axis-font-color-alt: #333;
   padding: 0;
   position: relative;
   height: 264px;
+  overflow: hidden;
   @include media-breakpoint-down(sm) {
       height: auto;
   }
@@ -133,25 +134,25 @@ $dashboard-banner-chart-axis-font-color-alt: #333;
 
     &.price-per-day {
       &::before {
-        background-color: $dashboard-line-color-price;
+        background-color: #a3b0bd;
       }
     }
 
     &.gas-price-oracle {
       &::before {
-        background-color: $dashboard-line-color-price;
+        background-color: #a3b0bd;
       }
     }
 
     &.market-cap-per-day {
       &::before {
-        background-color:$dashboard-line-color-market;
+        background-color:#a3b0bd;
       }
     }
 
     &.tx-per-day {
       &::before {
-        background-color: $dashboard-line-color-transactions;
+        background-color: #a3b0bd;
       }
     }
   }

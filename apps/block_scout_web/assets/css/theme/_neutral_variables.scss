@@ -1,7 +1,7 @@
 // general
 $primary: #fff;
 $secondary: #87e1a9;
-$tertiary: #f5f5f5;
+$tertiary: #a3b0bd;
 $additional-font: #000;
 
 // footer
@@ -46,7 +46,7 @@ $btn-address-card-icon-color: $primary; // btn address color
 $tile-body-a-color: $primary;
 $tile-type-block-color: $primary;
 $tile-type-progress-bar-color: $primary;
-a.tile-title { color: $primary !important; }
+// a.tile-title { color: $primary !important; }
 
 // card
 $card-background-1: $primary;
@@ -75,6 +75,6 @@ $api-text-monospace-color: $primary;
 }
 
 // Dark theme
-$dark-primary: #9b62ff;
-$dark-secondary: #87e1a9;
-$dark-primary-alternate: #7e50d0; 
+$dark-primary: #a3b0bd;
+$dark-secondary: #a3b0bd;
+$dark-primary-alternate: #a3b0bd; 

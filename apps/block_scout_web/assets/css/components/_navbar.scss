@@ -1,10 +1,10 @@
 // Default variables
 $header-background-color:  linear-gradient(to right, #000000, #374350 81%)  !default;
-$header-links-color: #828ba0 !default;
-$header-links-color-active: #333 !default;
+$header-links-color: #fff !default;
+$header-links-color-active: #fff !default;
 $header-icon-color: $header-links-color !default;
-$header-icon-color-hover: $secondary !default;
-$header-icon-border-color-hover: $secondary !default;
+$header-icon-color-hover: #fff !default;
+$header-icon-border-color-hover: #fff !default;
 $header-toggler-icon: "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#{transparentize($primary, 0.5)}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E" !default;
 $header-textfield-text-color: $header-links-color !default;
 $header-textfield-background-color: #f5f6fa !default;

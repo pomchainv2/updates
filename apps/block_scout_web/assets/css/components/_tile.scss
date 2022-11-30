@@ -14,7 +14,7 @@ $tile-type-progress-bar-color: $primary !default;
 $tile-status-error-reason: #ff7986 !default;
 $tile-status-awaiting-internal-transactions: $warning !default;
 $tile-padding: 1rem;
-$tile-title-color: #333 !default;
+$tile-title-color: #000 !default;
 $tile-body-a-color: #5959d8 !default;
 
 @mixin generate-tile-block($prefix, $color, $label-color: false) {
@@ -117,7 +117,7 @@ $tile-body-a-color: #5959d8 !default;
 }
 
 .tile-bottom-contents {
-  background-color: #f6f7f9;
+  background-color: #f5f5f5;
   font-size: 12px;
   line-height: 1.2;
   padding: 0.8rem 1rem;
@@ -289,7 +289,7 @@ $tile-body-a-color: #5959d8 !default;
     .tile-title {
       font-weight: 700;
       line-height: 1.2;
-      margin-bottom: 12px;
+      // margin-bottom: 12px;
       padding: 1rem 1rem 0 1rem;
     }
   }
@@ -323,7 +323,7 @@ $tile-body-a-color: #5959d8 !default;
   }
 
   &.tile-type-api-documentation {
-    background-color: transparent;
+    background-color: #f5f5f5;
     cursor: pointer;
     padding: 15px;
     text-align: left;
@@ -367,7 +367,7 @@ $tile-body-a-color: #5959d8 !default;
 
 // Loader
 .tile-type-loading {
-  background-color: #fff;
+  background-color: #f5f5f5;
   padding-top: 30px;
   padding-bottom: 28px;
 }

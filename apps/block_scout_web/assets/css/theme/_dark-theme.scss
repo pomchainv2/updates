@@ -2,7 +2,7 @@ $body-dark: #1c1d31; // body background
 $dark-bg: #22223a; // hero shade
 $dark-light-bg: linear-gradient(to right, #000000, #374350 81%) ; // pills bg shade
 $dark-light: #313355; // tile light top share
-$labels-dark: #8a8dba; // header nav, labels
+$labels-dark: #fff; // header nav, labels
 $dark-stakes-banned-background: #3e314c;
 
 // Switcher
@@ -23,7 +23,7 @@ $dark-stakes-banned-background: #3e314c;
 		opacity: .8;
 	}
 	svg path {
-		fill: #828ba0;
+		fill: #fff;
 	}
 	&--dark {
 		svg path {
@@ -199,14 +199,14 @@ $dark-stakes-banned-background: #3e314c;
 			color: #fff;
 		}
 		.tile-transaction-type-block {
-			background-color: transparent;
+			background-color: #f5f5f5;
 		}
 	}
 	.tile-bottom-contents {
 		background-color: $dark-bg;
 	}
 	a.tile-title {
-		color: #fff !important;
+		color: #f5f5f5 !important;
 	}
 	.tile.tile-type-block .tile-transaction-type-block a {
 		color: #fff;

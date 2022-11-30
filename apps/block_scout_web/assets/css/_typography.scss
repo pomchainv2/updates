@@ -1,4 +1,4 @@
-$common-link-color: $primary !default;
+$common-link-color: #000;
 $blue:#4b89fb !default;
 $success:#34c0ad !default;
 
@@ -114,11 +114,11 @@ textarea.form-control {
 [data-transaction-status="Success"],
 [data-internal-transaction-type="Reward"] {
   color: $success;
-  [data-transaction- 
-  [Suicide"] {
+  [data-transaction= 
+  "Suicide"] {
     color: $danger;
   }
-  ]
+  
 }
 
 [data-internal-transaction-type="Call"] {

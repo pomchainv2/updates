@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+  app:
+    build:
+      context: .
+    environment:
+      DATABASE_URL: postgres://root:local123@db:5432/vortex
+      ETHEREUM_JSONRPC_HTTP_URL: http://192.168.0.64:8545
+    ports:
+      - "4000:4000"
+    restart: always
+
+  db:
+    environment:
+      POSTGRES_PASSWORD: local123
+      POSTGRES_USER: root
+      POSTGRES_DB: vortex
+    image: postgres
+    restart: always
+

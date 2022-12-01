@@ -215,6 +215,9 @@ $color-text: #000 !important;
     &-lg {
       color: $body-color;
       font-size: 16px;
+    } 
+    a{
+      color : $color-text;
     }
   }
   border-radius: 4px;

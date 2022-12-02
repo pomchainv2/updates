@@ -23,13 +23,17 @@
         <div class="footer-social-icons">
           <a href="https://pomeranian.dev/" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Website") %>'>
            
-            <img src="<%= static_path(@conn, "/images/logoPom.png") %>" alt="<%= "POMv2" %>" style="width: 1.6rem"/>
+            <img src="<%= static_path(@conn, "/images/worldweb.png") %>" alt="<%= "POMv2" %>" style="width: 1.6rem"/>
           </a>
           <a href="https://twitter.com/PomeranianERC" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Twitter") %>'>
             <div class="footer-social-icon-container fontawesome-icon twitter"></div>
           </a>
           <a href="https://t.me/Pomeranian_portal" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Telegram") %>'>
             <div class="footer-social-icon-container fontawesome-icon telegram"></div>
+          </a>
+          <a href="https://pomeranianerc.medium.com/" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Medium") %>'>
+           
+            <img src="<%= static_path(@conn, "/images/medium.png") %>" alt="<%= "POMv2" %>" style="width: 1.6rem"/>
           </a>
         </div>
       </div>

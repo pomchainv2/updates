@@ -1069,7 +1069,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:4
 #, elixir-autogen, elixir-format
-msgid "ETH RPC API Documentation"
+msgid "POMV2 RPC API Documentation"
 msgstr ""
 
 #: lib/block_scout_web/templates/address_contract/index.html.eex:76

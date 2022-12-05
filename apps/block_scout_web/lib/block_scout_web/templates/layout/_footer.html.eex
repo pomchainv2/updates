@@ -22,8 +22,8 @@
         <p class="footer-info-text"><%= gettext("Blockscout is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks.") %></p>
         <div class="footer-social-icons">
           <a href="https://pomeranian.dev/" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Website") %>'>
-           
-            <img src="<%= static_path(@conn, "/images/worldweb.png") %>" alt="<%= "POMv2" %>" style="width: 1.6rem"/>
+          
+            <img src="<%= static_path(@conn, "/images/globe.svg") %>" alt="<%= "POMv2" %>" style="width: 1.5rem"/>
           </a>
           <a href="https://twitter.com/PomeranianERC" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Twitter") %>'>
             <div class="footer-social-icon-container fontawesome-icon twitter"></div>
@@ -33,7 +33,7 @@
           </a>
           <a href="https://pomeranianerc.medium.com/" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Medium") %>'>
            
-            <img src="<%= static_path(@conn, "/images/medium.png") %>" alt="<%= "POMv2" %>" style="width: 1.6rem"/>
+            <img src="<%= static_path(@conn, "/images/mediumDots.svg") %>" alt="<%= "POMv2" %>" style="width: 2.3rem"/>
           </a>
         </div>
       </div>

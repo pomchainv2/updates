@@ -1,7 +1,7 @@
 defmodule EthereumJSONRPC.HTTP.MoxTest do
   @moduledoc """
   Tests differences in behavior of `EthereumJSONRPC` when `EthereumJSONRPC.HTTP` is used as the transport that are too
-  detrimental to run against Sokol, so uses `EthereumJSONRPC.HTTP.Mox` instead.
+  detrimental to run against POMv2, so uses `EthereumJSONRPC.HTTP.Mox` instead.
   """
 
   use ExUnit.Case, async: true
@@ -31,7 +31,7 @@ defmodule EthereumJSONRPC.HTTP.MoxTest do
     # regression test for https://github.com/poanetwork/blockscout/issues/254
     #
     # this test triggered a DoS with CloudFlare reporting 502 Bad Gateway
-    # (see https://github.com/poanetwork/blockscout/issues/340), so it can't be run against the real Sokol chain and
+    # (see https://github.com/poanetwork/blockscout/issues/340), so it can't be run against the real POMv2 chain and
     # must use `mox` to fake it.
     test "transparently splits batch payloads that would trigger a 413 Request Entity Too Large", %{
       json_rpc_named_arguments: json_rpc_named_arguments

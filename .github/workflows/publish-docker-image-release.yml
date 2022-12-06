@@ -80,7 +80,7 @@ jobs:
         production-optimism-mainnet-stg
         production-optimism-stg
         production-rsk-stg
-        production-sokol-stg
+        production-POMv2-stg
         production-xdai-stg
     steps:
     - uses: actions/checkout@v2

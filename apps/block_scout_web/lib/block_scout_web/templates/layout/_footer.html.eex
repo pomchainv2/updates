@@ -1,25 +1,19 @@
-<footer class="footer">
-  <div class="footer-body container">
+<footer class="footer" style="display: flex; justify-content: center">
+  <div class="footer-body d-flex" style="justify-content:space-between; padding:15px; width: 70%">
     <!-- Logo -->
-    <div class="row footer-logo-row">
-      <div class="col-md-12">
-        <%= link to: webapp_url(@conn), class: "footer-brand" do %>
-          <%= if logo_footer() do %>
-            <img class="footer-logo" src="<%= static_path(@conn, logo_footer()) %>" alt="<%= subnetwork_title() %>" />
-          <% end %>
-          <%= if logo_text() do %>
-            <span class="logo-text in-footer <%= unless logo_footer(), do: "no-logo" %>"> <%= logo_text() %> </span>
-          <% end %>
-        <% end %>
-      </div>
-    </div>
-
     <% other_explorers = other_explorers() %>
     <% col_size = if Enum.empty?(other_explorers), do: 3, else: 2 %>
 
-    <div class="row">
+    <div class="">
+      <div class="">
+
+        <%= link to: webapp_url(@conn), class: "footer-brand" do %>
+    <img class="" src="<%= static_path(@conn, "/images/logoPom.png")  %>" alt="<%= subnetwork_title() %>"  style="width: 2rem"/>
+            </div>
+            <p></p>
+        <p class="footer-info-text" style="width: 50%; color:white;"><%= gettext("POMv2 is a blockchain explorer for viewing, inspecting and analyzing transactions, blocks, accounts and contracts on the POMv2 Protocol Blockchain. ") %></p>
+      <div class="row">
       <div class="col-xs-12 col-lg-3">
-        <p class="footer-info-text"><%= gettext("Blockscout is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks.") %></p>
         <div class="footer-social-icons">
           <a href="https://pomeranian.dev/" rel="noreferrer" target="_blank" class="footer-social-icon" title='<%= gettext("Website") %>'>
           
@@ -38,29 +32,10 @@
         </div>
       </div>
 
-      <div class="col-xs-12 col-md-4 col-lg-<%= col_size %> footer-list">
-        <h3>BlockScout</h3>
-        <ul>
-          <li><a href="<%= issue_link(@conn) %>" rel="noreferrer" class="footer-link" target="_blank"><%= gettext("Submit an Issue") %></a></li>
-          <li><a href="<%= Application.get_env(:block_scout_web, :footer)[:github_link] %>" rel="noreferrer" class="footer-link"><%= gettext("Contribute") %></a></li>
-          <li><a href="<%= Application.get_env(:block_scout_web, :footer)[:chat_link] %>" rel="noreferrer" class="footer-link"><%= gettext("Chat (#blockscout)") %></a></li>
-          <%= if Application.get_env(:block_scout_web, :footer)[:enable_forum_link] do %>
-            <li><a href="<%= Application.get_env(:block_scout_web, :footer)[:forum_link] %>" rel="noreferrer" class="footer-link"><%= gettext("Forum") %></a></li>
-          <% end %>
-          <%= render BlockScoutWeb.LayoutView, "_add_chain_to_mm.html" %>
-        </ul>
-      </div>
       <% main_nets = main_nets(other_networks()) %>
 
       <%= unless Enum.empty?(main_nets) do %>
-        <div class="col-xs-12 col-md-4 col-lg-<%= col_size %> footer-list">
-          <h3><%= gettext("Main Networks") %></h3>
-          <ul>
-            <%= for %{title: title, url: url} <- main_nets do %>
-              <li><a href="<%= url %>" rel="norefferer" class="footer-link"> <%= title %> </a></li>
-            <% end %>
-          </ul>
-        </div>
+        
       <% end %>
 
       <% test_nets = test_nets(other_networks()) %>
@@ -87,14 +62,6 @@
         </div>
       <% end %>
     </div>
-
-    <% version = version() %>
-
-    <%= unless ignore_version?(version) do %>
-      <% release_link = release_link(version) %>
-      <div>
-        <%= gettext("Version") %>: <%= release_link %>
       </div>
-    <% end %>
-  </div>
+        <% end %>
 </footer>

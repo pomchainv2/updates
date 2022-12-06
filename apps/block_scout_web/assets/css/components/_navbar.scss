@@ -1,6 +1,7 @@
 // Default variables
 $header-background-color:  linear-gradient(to right, #000000, #374350 81%)  !default;
 $header-links-color: #fff !default;
+$header-links-color-dropdown: #000 !default;
 $header-links-color-active: #fff !default;
 $header-icon-color: $header-links-color !default;
 $header-icon-color-hover: #fff !default;
@@ -29,6 +30,11 @@ $navbar-logo-width: 100% !default;
       color: $header-links-color; 
     }
     
+    .nav-submenu-dropdown {
+      padding: 10px 20px;
+      color: $header-links-color-dropdown; 
+    }
+
     .nav-link {
       outline: none;
       align-items: center;

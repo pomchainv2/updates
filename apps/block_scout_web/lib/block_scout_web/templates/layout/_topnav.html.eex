@@ -21,7 +21,7 @@
               <%= gettext("Blockchain") %>
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarBlockchainDropdown">
-              <div class="nav-submenu">
+              <div class="nav-submenu-dropdown">
                 <span>
                   <%= gettext("Blocks") %>
                 </span>
@@ -36,7 +36,7 @@
               <%= link(gettext("Forked Blocks (Reorgs)"),
                     to: reorg_path(@conn, :reorg),
                     class: "border-bottom dropdown-item #{tab_status("reorgs", @conn.request_path)}")%>
-              <div class="nav-submenu">
+              <div class="nav-submenu-dropdown">
                 <span>
                   <%= gettext("Transactions") %>
                 </span>

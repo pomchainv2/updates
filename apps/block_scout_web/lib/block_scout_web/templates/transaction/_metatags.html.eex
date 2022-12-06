@@ -1,10 +1,6 @@
 <%= if assigns[:transaction] do %>
   <title>
-    <%= gettext(
-          "Transaction %{transaction} - %{subnetwork} Explorer",
-          transaction: to_string(@transaction.hash),
-          subnetwork: BlockScoutWeb.LayoutView.subnetwork_title()
-        ) %>
+   POMv2
   </title>
 
   <meta name="description" content="<%= gettext "View transaction %{transaction} on %{subnetwork}", transaction: to_string(@transaction.hash), subnetwork: BlockScoutWeb.LayoutView.subnetwork_title() %>">

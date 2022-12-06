@@ -11,7 +11,7 @@
     <img class="" src="<%= static_path(@conn, "/images/logoPom.png")  %>" alt="<%= subnetwork_title() %>"  style="width: 2rem"/>
             </div>
             <p></p>
-        <p class="footer-info-text" style="width: 50%; color:white;"><%= gettext("POMv2 is a blockchain explorer for viewing, inspecting and analyzing transactions, blocks, accounts and contracts on the POMv2 Protocol Blockchain. ") %></p>
+        <p class="footer-info-text" style="width: 50%;"><%= gettext("POMv2 is a blockchain explorer for viewing, inspecting and analyzing transactions, blocks, accounts and contracts on the POMv2 Protocol Blockchain. ") %></p>
       <div class="row">
       <div class="col-xs-12 col-lg-3">
         <div class="footer-social-icons">

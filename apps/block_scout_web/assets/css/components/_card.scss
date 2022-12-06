@@ -1,5 +1,5 @@
 $card-background-color: #fff !default;
-$card-tab-active: #000   !default;
+$card-tab-active: #000  !default;
 $card-default-border-radius: 0px !default;
 $card-horizontal-padding: 30px;
 $card-vertical-padding: 30px;
@@ -215,7 +215,7 @@ $card-tab-icon-color-active: #000 !default;
 
   &:hover {
     background-color: rgba($card-tab-active, .15);
-    color: $card-tab-active;
+    color: #000 !important;
     text-decoration: none;
   }
 

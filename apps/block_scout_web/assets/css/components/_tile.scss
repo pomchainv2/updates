@@ -25,10 +25,10 @@ $color-text: #000 !important;
     .tile-transaction-type-block {
       a {
         @if ($label-color) {
-          color: $label-color;
+          color: #000;
           background-color: #f5f5f5;
         } @else {
-          color: $color;
+          color: #000;
           background-color: #f5f5f5;
         }
         

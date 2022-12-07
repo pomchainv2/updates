@@ -1,7 +1,7 @@
-$pagination-page-link-background: #f5f6fa !default;
+$pagination-page-link-background: #f5f6fa !important;
 $pagination-page-link-color: #a3a9b5 !default;
-$pagination-page-link-background-active: $primary !default;
-$pagination-page-link-color-active: #fff !default;
+$pagination-page-link-background-active: #f5f6fa;
+$pagination-page-link-color-active: #a3a9b5 !default;
 
 @mixin pagination-container-base($background-color, $text-color) {
   background-color: $background-color;
@@ -119,6 +119,7 @@ $pagination-page-link-color-active: #fff !default;
         @include pagination-container-base($pagination-page-link-background-active, $pagination-page-link-color-active);
         background-color: rgba($pagination-page-link-background-active, 0.5);
         border-color: rgba($pagination-page-link-background-active, 0.5);
+        color: #a3a9b5;
       }
     }
   }

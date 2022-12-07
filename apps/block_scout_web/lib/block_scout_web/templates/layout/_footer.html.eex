@@ -8,7 +8,7 @@
       <div class="">
 
         <%= link to: webapp_url(@conn), class: "footer-brand" do %>
-    <img class="" src="<%= static_path(@conn, "/images/logoPom.png")  %>" alt="<%= subnetwork_title() %>"  style="width: 2rem"/>
+    <img class="" src="<%= static_path(@conn, "/images/logoPom.png")  %>" alt="<%= subnetwork_title() %>"  style="width: 3.6rem"/>
             </div>
             <p></p>
         <p class="footer-info-text" style="width: 50%;"><%= gettext("POMv2 is a blockchain explorer for viewing, inspecting and analyzing transactions, blocks, accounts and contracts on the POMv2 Protocol Blockchain. ") %></p>

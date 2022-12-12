@@ -7,7 +7,7 @@ services:
     environment:
       DATABASE_URL: postgres://root:root@db:5432/pom
       ETHEREUM_JSONRPC_VARIANT: ganache
-      ETHEREUM_JSONRPC_HTTP_URL: http://5.161.143.67:8545/
+      ETHEREUM_JSONRPC_HTTP_URL: http:/127.0.0.1:8545/
     ports:
       - "4000:4000"
     restart: always
